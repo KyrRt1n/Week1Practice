@@ -16,6 +16,10 @@ public class Animal {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void eat() {
         System.out.println(name + " is eating general animal food.");
     }
