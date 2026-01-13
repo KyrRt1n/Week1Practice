@@ -1,17 +1,6 @@
 public class Animal {
     private String name;
 
-    public void feed(Animal animal){
-        animal.eat();
-        if(animal instanceof Dog){
-            Dog thisDog = (Dog) animal;
-            thisDog.bark();
-        }
-        else{
-            System.out.println("*Happy eating cat sounds*");
-        }
-    }
-
     public Animal(String name) {
         this.name = name;
     }
