@@ -12,7 +12,7 @@ public class Main {
         Dog Oleg3 = new Dog("Oleg", "Sopsancheg");
         System.out.println(Oleg3);
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println("Equal name and breed equality: " + Oleg1.equals(Oleg2));
         System.out.println("Diff breed equality: " + Oleg1.equals(Oleg3));
