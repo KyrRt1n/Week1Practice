@@ -7,6 +7,10 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
+    public void bark(){
+        System.out.println("Barking~ Woof!");
+    }
+
     @Override
     public void eat() {
         System.out.println("This dog eats meat");
